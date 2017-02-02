@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--文件在应用启动前必须配置-->
+<appconfig>
+  <!--服务器地址-->
+  <server_address>sandboxapp.cloopen.com:8883</server_address>
+  <!-- <server_address>app.cloopen.com:8883</server_address> -->
+
+  <!--服务器端口-->
+  <server_port>8883</server_port>
+  
+  <!--主账号-->
+  <main_account>aaf98fda450235c1014515d1b2910ef6</main_account>
+  
+  <!--主账号令牌-->
+  <main_token>488ac755f30447f882d5564d91fb9a18</main_token>
+  
+
+
+  <!--子账号-->
+  <sub_account>aaf98fda450235c1014515d456020efc</sub_account>
+  
+  <!--子账号令牌-->
+  <sub_token>793f75595d49411b943f921c811f1300</sub_token>
+  
+  <!--VoIP账号-->
+  <voip_account>81213500000001</voip_account>
+  
+  <!--VoIP密码-->
+  <voip_password>doh3r7tn</voip_password>
+  
+  <!--应用ID-->
+  <app_id>aaf98fda450235c1014515d455f20efb</app_id>
+</appconfig>

@@ -1,0 +1,34 @@
+.button-modal{
+	color: #333;
+}
+
+#click-price{
+	display: none;
+}
+
+#number-price{
+	color: #fc8936;
+	font-size: 17px;
+}
+
+#number-price b{
+}
+
+#modal-body-content{
+	font-size: 17px;
+}
+
+.modal-dialog{
+	padding-top: 18%;
+	padding-bottom: 0;
+}
+/*#button-login*/
+
+#none-loan{
+	margin-top: 15px;
+	/*padding: 50px;*/
+	text-align: center;
+}
+#none-loan p{
+	font-size: 20px;
+}

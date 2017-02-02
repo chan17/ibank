@@ -1,0 +1,113 @@
+.ui-box-white-bg{
+	width: 100%;
+	margin-bottom: 1.2em;
+}
+
+.ui-box-title{
+	line-height:58px;
+	/*padding: 0 20px;*/
+}
+
+.ui-box-icon{
+	width: 29px;
+	height: 31px;
+	display: inline-block;
+	+display:inline;+zoom:1; 
+	vertical-align: middle;
+	margin-right: 0.6em;
+}
+
+.ui-box-main {
+	/*border: 1px solid #C7BCBC;*/
+	background: white;
+	width: 100%;
+	/*height:300px;*/
+	border-radius: 5px;
+	padding: 15px;
+}
+
+
+
+#ui-personal {
+	background: url('../../img/loan-detail/list.png') no-repeat;
+}
+
+#plase-login{
+	margin: 50px;
+}
+
+#ui-verify {
+	background: url('../../img/loan-detail/list_hook.png') no-repeat;
+}
+
+#verify-thead{
+	background: #b6b6b6;
+	height: 48px;
+	width: 100%;
+	vertical-align: middle;
+	/*border-bottom: 2px solid #e0e0e0;*/
+	font-size: 18px;
+}
+
+#verify-thead  th:first-of-type{
+	border-top-left-radius: 5px;
+}
+
+#verify-thead  th:last-of-type{
+	border-top-right-radius: 5px;
+}
+
+.verify-hook i{
+	background: url('../../img/loan-detail/hook.png') no-repeat;
+	width: 28px;
+	height: 28px;
+	display: block;
+}
+.verify-fork i{
+	width: 28px;
+	height: 28px;
+	display: block;
+}
+
+.ui-table{
+	text-align: center;
+}
+
+.ui-table thead{
+	font-size: 15px;
+	text-align: center;
+
+}
+/*.ui-table thead tr{
+	text-align: center;
+}*/
+
+.ui-table tbody{
+	background: white;
+	font-size: 15px;
+}
+
+#ui-verify-table{
+	border-radius: 5px;
+}
+
+#ui-verify-table tbody tr {
+	height: 30px;
+	/*display: inline-grid;*/
+}
+
+#ui-verify-table tbody td i{
+	margin-left: 46%;
+}
+
+#verify-thead th{
+	text-align: center;
+}
+
+#ui-introduction {
+	background: url('../../img/loan-detail/list_plus.png') no-repeat;
+}
+
+#ui-userinfo-thead {
+
+}

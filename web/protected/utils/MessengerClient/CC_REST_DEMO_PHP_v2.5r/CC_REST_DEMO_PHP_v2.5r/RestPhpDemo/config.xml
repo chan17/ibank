@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--文件在应用启动前必须配置-->
+<appconfig>
+  <!--服务器地址-->
+  <server_address>sandboxapp.cloopen.com:8883</server_address>
+
+  <!--服务器端口-->
+  <server_port>8883</server_port>
+  
+  <!--主账号-->
+  <main_account></main_account>
+  
+  <!--主账号令牌-->
+  <main_token></main_token>
+  
+  <!--子账号-->
+  <sub_account></sub_account>
+  
+  <!--子账号令牌-->
+  <sub_token></sub_token>
+  
+  <!--VoIP账号-->
+  <voip_account></voip_account>
+  
+  <!--VoIP密码-->
+  <voip_password></voip_password>
+  
+  <!--应用ID-->
+  <app_id></app_id>
+</appconfig>

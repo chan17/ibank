@@ -1,0 +1,16 @@
+.button-large{
+	background-color: #52a3ff;
+	height: 40px;
+	width:300px;
+	border-radius: 6px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.fn-text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

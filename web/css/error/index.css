@@ -1,0 +1,55 @@
+body{
+	background: #e9e7e8;
+	/*height:100%;*/
+}
+.pg-container{
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+}
+.ui-main{
+	/*background: #e9e7e8;*/
+	margin-top: 10px;
+	height: 500px;
+	padding: 10px;
+	height:650px;
+	text-align: center;
+}
+.ui-img-smile{
+	background: url('../../img/error/imge-collection.png') 0 0;
+	width: 134px;
+	height: 120px; 
+	border:none;
+	margin-left: 43%;
+	margin-top: 50px;
+}
+.ui-error-text{
+	color: #797979;
+	margin-top: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size:19px;
+	height: 20px;
+}
+.ui-exit-button{
+	margin-top: 20px;
+}
+.ui-exit-button-index{
+	width: 69px;
+	height: 15px;
+	background: url('../../img/error/imge-collection.png') 0 -142px no-repeat;
+	margin: 7px;
+}
+.ui-exit-button-index-link{
+	margin-left: 15px;
+}
+.ui-exit-button-or{
+	display: inline-block;
+	margin: 0 15px 0 15px;
+}
+.ui-exit-button-help{
+	width: 69px;
+	height: 15px;
+	background: url('../../img/error/imge-collection.png') 0 -157px no-repeat;
+	margin: 7px;
+}

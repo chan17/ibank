@@ -1,0 +1,224 @@
+/*@media (max-width: 800px) { 
+	.background-derailment {
+		background: #fff ;
+	}
+}*/
+
+@media (min-width: 800px) {
+
+}
+
+.slider-wrap {
+
+	position: relative;
+	width: 100%;
+	overflow: auto;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: rgba(255,255,255,.6);
+	text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+}
+.slider-wrap ul{ display: block;text-align: center;}
+.slider-wrap li { list-style: none; }
+.center{
+	margin-left:0 auto;
+	margin-right:0 auto;
+	text-align: center;
+}
+.dots {
+	width:40%;
+	position: absolute;
+	left: 30%;
+	bottom: 20px;
+	text-align: center;
+	color: black;
+}
+
+.dots li {
+	/*float: left;*/
+	display: inline-block;
+	margin-left: 0.8em;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	background: #ecf2f7;
+	border-radius: 20px;
+}
+
+.dots li.active{
+	background: #15456f;
+	color: #fff;
+}
+
+/*!!!!!!!!!!!!!Note that the above!!!!!!!!!!!!!!!!!!!!*/
+#look_more {
+	margin: 0 auto;
+	text-align:center;
+
+	position:relative;
+	top: 90px;
+
+	display: block;
+	width: 100%;
+}
+
+#look_more img{
+	text-align:center;
+
+}
+
+/*table  start*/
+.loading-row{
+	float: left;
+
+}
+
+#loading {
+	display: block;
+	height: 450px;
+	/*height: 450px;*/
+	margin-top: 50px;
+	
+
+	position: relative;
+	top: 110px;
+}
+
+#buying{
+	width: 480px;
+}
+
+#buying-title{
+	background: url(../../img/default/table/buying.png) no-repeat center top;
+	width: 480px;
+	height: 49px;
+	margin-top: 1px;
+
+}
+
+#buying table {
+	width: 480px;
+	/*height: 500px;*/
+	text-align: center;
+}
+#buying table thead {
+	width: 480px;
+	height: 38px;
+	border:#333;
+}
+
+#buying table thead tr {
+	width: 480px;
+	height: 38px;
+	line-height: 2em;
+	background: url(../../img/default/table/table_head.png) no-repeat center top;
+
+	/*background: #666;*/
+}
+
+#buying table tr th{
+	text-align: center;
+
+}
+
+#buying table tbody tr{
+	width: 484px;
+	height: 62px;
+
+	background: url(../../img/default/table/table_tbody_tr.png) no-repeat center top;
+
+}
+
+#buying table tbody tr th{
+	height: 62px;
+	line-height: 3em;
+
+	color: #52a3ff;
+	/*font-size: 1.3em;*/
+	vertical-align: middle;
+}
+
+#top5 {
+	width: 250px;
+
+	border: 1px solid #CCC;
+}
+
+#top5-title {
+	width: 250px;
+	height: 87px;
+	background: url(../../img/default/table/top5.png) no-repeat center top;
+	padding: 25px 20px;
+}
+
+.title-p {
+	color: #fff;
+	font-size:22px;
+	text-align: center;
+}
+
+.solid-main {
+	padding-left: 1em;
+	padding-top: 0.4em;
+	width: 100%;
+
+	background:#F2F2F2;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	height: 62px;
+}
+
+#taapp{
+	width: 250px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+
+}
+
+#taapp-title{
+	background: url(../../img/default/table/ta-app.png) no-repeat center top;
+	width: 250px;
+	height:87px;
+	padding: 25px 20px;
+}
+
+#scrollDiv{
+	width:250px;
+	height: 310px;
+	overflow:hidden;
+}
+
+.tab-time{
+	color: #5A5A5A;
+	font-size: 13px;
+}
+
+.main-titleBody {
+	/*margin-top: 200px;*/
+	display: block;
+	position: relative;
+	top: 100px;
+}
+
+.main-row{
+	height: 1200px;
+	background-color: #fff;
+}
+
+.tb-title-inner{
+	margin: 0;
+	height: 30px;
+	border-bottom: 1px solid #ababab;
+	width: 100%;
+	display: block;
+}
+
+.tb-body {
+	display: block;
+	margin-top: 5px;
+	padding: 10px;
+}

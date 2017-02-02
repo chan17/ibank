@@ -1,0 +1,18 @@
+#back{
+	width: 10%;
+}
+#ui-identity{
+	background: none;
+	border-bottom: 1px solid #C9E0ED;
+}
+.ui-nav-hr{
+	border-bottom: 1px solid #C9E0ED;
+}
+
+.ui-identity-bankName{
+	color: red;
+}
+
+.ui-identity-userName{
+	color: red;
+}

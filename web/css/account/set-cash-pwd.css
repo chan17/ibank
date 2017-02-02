@@ -1,0 +1,18 @@
+#CashPwd-tab{
+	/*margin-left: 20px;*/
+}
+
+#CashPwd-content{
+	float: left;
+	padding: 10px 0 0 20px;
+}
+
+#get-pwd p {
+	padding: 10px 0;
+	text-align: center;
+	color: #adadad;
+}
+
+.change-pwd-button{
+	float:left;
+}

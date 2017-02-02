@@ -1,0 +1,108 @@
+
+.main-row{
+	height: 450px;
+}
+
+#login-banner {
+	width: 100%;
+	height:280px;
+}
+
+#use-login{
+	display: block;
+}
+
+@media ( min-width : 798px ) {
+	.adaptive-login-from{
+		width:55%;
+	}
+
+	.login-qq{
+		margin-top: 100px;
+	}
+}
+@media (max-width: 798px) { 
+	.adaptive-login-from{
+		width:100%;
+	}
+
+	.login-qq{
+		margin-top: 0;
+	}
+}
+
+
+#login-from {
+	margin-right: 50px;
+	float: left;
+	padding: 50px 20px 50px 20px;
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 15px 20px 15px 20px;
+
+	width: 450px;
+	height: auto;
+}
+
+.ui-form-row{
+	/*padding-top: 20px;*/
+}
+
+.ui-input {
+	width: 100%
+}
+
+.ui-label {
+	 margin-left: 0;
+	 float: none; 
+	 display: block;
+
+	 padding-bottom: 5px;
+	text-align: left;
+	font-size: 14px;
+}
+
+.ui-form-item {
+	padding: 10px 10px 10px 10px;
+	zoom: 1;
+}
+
+.login-buttom{
+	width: 60%;
+}
+
+#forget-pass {
+	float: right;
+}
+
+#login-other{
+	width: 480px;
+	float: left;
+	height: 350px;
+	border-left: #52a3ff dotted 1px;
+
+	padding: 20px 20px 20px 20px;
+}
+
+#login-other a{
+	display: block;
+}
+
+#login-other a img{
+	margin-bottom: 10px;
+}
+
+
+#user-form-login-button{
+	background: url('../../img/login/login-button.png');
+	width: 120px;
+	height: 50px;
+	border: 0px;
+}
+
+#user-form-login-button:hover{
+	background: url('../../img/login/login-buttom-hover.png');
+
+}

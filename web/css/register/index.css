@@ -1,0 +1,145 @@
+/*@media ( min-width : 798px ) {*/
+	#reg-tab-content form{
+		width:500px;
+		text-align: center;
+		margin: 0 auto;
+	}
+/*}
+@media (max-width: 798px) { 
+	#reg-tab-content form{
+		width:100%;
+	}
+}*/
+.main-row {
+	padding: 50px 0;
+}
+
+.ui-form-row{
+	/*padding-top: 20px;*/
+}
+
+.ui-input {
+	width: 200px;
+	margin-right: 90px;	
+}
+
+.ui-label {
+	 margin-left: 0;
+	 display: block;
+
+	 padding-bottom: 5px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.ui-form-item {
+	padding: 10px 10px 10px 10px;
+	zoom: 1;
+}
+
+#reg-tab-content {
+	background: #fff;
+	/*margin: 30px auto;*/
+	min-height: 500px;
+	padding: 1em;
+		text-align: center;
+
+}
+
+.ui-box-white-bg {
+	border: 1px solid #AFAFAF;
+}
+
+#AjaxPhoneAuth {
+	width: 150px;
+	margin-right: 140px;
+}
+
+.ui-input-submit{
+	color: none;
+	width: 180px;
+	height: 50px;
+	float: left;
+	border: none;
+}
+#RegisterForm_purview{
+	margin-top: 2px;
+	font-size: 17px;
+	display: block;
+	padding-right: 115px;
+}
+
+#RegisterForm_agree{
+	margin-left: 140px;
+}
+
+#RegisterForm_purview input{
+	margin-left: 20px;
+}
+#RegisterForm_purview i{
+	font-style: normal;
+}
+
+.ui-form-item .ui-input-agree{
+	margin-left: 140px;
+}
+
+#QqRegisterForm_purview{
+	margin-top: 2px;
+	font-size: 17px;
+	display: block;
+	padding-right: 115px;
+}
+
+#RegisterForm_agree{
+	margin-left: 140px;
+}
+
+#QqRegisterForm_purview input{
+	margin-left: 20px;
+}
+#QqRegisterForm_purview i{
+	font-style: normal;
+}
+
+.register-button{
+	/*margin-left: 60px;*/
+	float: right;
+	margin-right: 140px;
+	background: url('../../img/register/buttom-submit.png') no-repeat 0 -0px;
+	margin-left: 60px;
+}
+
+.register-button:hover{
+	background: url('../../img/register/buttom-submit.png') no-repeat 0 -50px;
+}
+
+#reg-info-banner {
+	height: 70px;
+	margin-bottom: 0.8em;
+	width: 100%;
+	background: #B6B6B6;
+	padding: 20px 30px;
+
+}
+/*.reg-info-banner{
+	float: left;
+	width: 500px;
+}*/
+
+#reg-info-banner p{
+	font-size: 1.2em;
+	margin: 0 auto;
+	line-height: 2em;
+
+	padding: 10;
+		float: left;
+	width: 450px;
+}
+
+.go-login {
+	text-align: right;
+}
+
+/* about error */
+form label.error{color: red;}

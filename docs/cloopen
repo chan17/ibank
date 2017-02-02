@@ -1,0 +1,1 @@
+首先要明确鉴权通知有3个：分别为呼叫鉴权，呼叫建立，呼叫挂机计费，对应的Action分别为CallAuth，CallEstablish，Hangup，第三方处理程序需要根据Action区分通知。

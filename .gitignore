@@ -1,0 +1,5 @@
+demos
+web/assets/*
+web/protected/runtime/*
+web/protected/data/*.sql
+tttest/*

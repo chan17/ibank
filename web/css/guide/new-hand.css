@@ -1,0 +1,75 @@
+.pg-products{
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1000px;
+}
+
+.pg-title{
+    width: 100%;
+    padding-bottom: 20px;
+    color: #555;
+}
+
+.breadcrumbs{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1000px;
+}
+
+.pg-container-content{
+
+    width: 100%;
+    margin: 0 auto;
+    /*padding: 0 auto;*/
+    padding: 20px;
+}
+.pg-guide-content{
+    background: #fff;
+    border-radius:4px;
+    height: auto;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+
+}
+
+.ui-card{
+    margin-bottom: 30px;
+}
+
+.ui-card-title{
+    background: url(../../img/new-hand/line.png) no-repeat;
+    height: 48px;
+}
+.ui-card-title i{
+    float: left;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin: 7px;
+}
+
+.ui-card-title-text{
+    float: left;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 12px;
+    color: white;
+}
+
+.ui-card-body{
+    padding: 7px;
+    font-size: 17px;
+    color: #69787d;
+}
+
+.ui-card-title-icon-step{
+    background: url(../../img/new-hand/icon.png) 0 0;
+}
+
+.ui-card-title-icon-info{
+    background: url(../../img/new-hand/icon.png) 0 -34px;
+}
+
+.ui-card-title-icon-howdo{
+    background: url(../../img/new-hand/icon.png) 0 -68px;
+}
